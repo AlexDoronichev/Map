@@ -4,17 +4,15 @@ TEMPLATE = app
 
 QT += core gui widgets
 
-PYTHON_EXECUTABLE = /home/administrator/environment/bin/python3
-PYSIDE_VERSION = 2
+#PYTHON_EXECUTABLE = /home/administrator/environment/bin/python3
+#PYSIDE_VERSION = 2
 
 #INCLUDEPATH += $$[QT_INSTALL_HEADERS]/QtGui
 
 SOURCES += \
     main.py \
     Mark.py \
-    DB_controller.py
-
-HEADERS += \
+    DB_controller.py \
     Map.pyproject
 
 RESOURCES += \

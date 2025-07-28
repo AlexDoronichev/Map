@@ -219,7 +219,7 @@ class MapView(QGraphicsView):
         map_image = QImage(filePath)
         if map_image.isNull():
             print("Не удалось загрузить изображение")
-            #sys.exit(1)
+            sys.exit(1)
         pixmap = QPixmap.fromImage(map_image)
         self.map_item = QGraphicsPixmapItem(pixmap)
         self.map_item.setPos(0, 0)
